@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: kyria_rev3}
 layers:
   BASE:
-  - {t: ▽, type: trans}
+  - {type: trans}
   - Q
   - W
   - E
@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - {t: ▽, type: trans}
+  - {type: trans}
   - {t: ⇥, h: Shift}
   - {t: A, h: Shift}
   - {t: S, h: RIGHT ALT}
@@ -24,35 +24,35 @@ layers:
   - {t: K, h: SYMB}
   - {t: L, h: RIGHT ALT}
   - {t: ;, h: Shift}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: trans}
+  - {type: trans}
   - Z
   - X
   - C
   - {t: V, h: Gui}
   - B
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   - N
   - {t: M, h: Gui}
   - ','
   - .
   - /
   - {t: ENTER, h: RSHFT}
-  - {t: ▽, type: trans}
+  - {type: trans}
   - {t: FUNC, h: sticky}
   - {t: '$$mdi:location-exit$$', h: MOUS}
   - {t: ␣, h: Gui}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: trans}
+  - {type: trans}
   - {t: ENTER, h: Gui}
   - {t: ⌫, h: NAVI}
   - '&Compose1ToNumpad'
-  - {t: ▽, type: trans}
+  - {type: trans}
   SYMB:
-  - {t: ▽, type: trans}
+  - {type: trans}
   - '1'
   - '2'
   - '3'
@@ -63,8 +63,8 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: trans}
+  - {type: trans}
   - {t: ESCAPE, h: LSHFT}
   - {t: INS, h: RIGHT ALT}
   - {t: DELETE, h: NPAD, type: held}
@@ -75,35 +75,35 @@ layers:
   - {t: '$$mdi:arrow-up$$', h: NPAD}
   - {t: '$$mdi:arrow-right$$', h: RIGHT ALT}
   - {t: ENTER, h: RSHFT}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: trans}
+  - {type: trans}
   - '`'
   - _
   - '='
   - {t: '[', h: Gui}
   - ']'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   - \
   - {t: '''', h: Gui}
   - ','
   - .
   - /
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: trans}
+  - {type: trans}
   - {t: '&esc2base', h: MOUS}
   - {t: '&space2base', h: Gui}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   - {t: '&ret2base', h: LCMD}
   - {t: '&bksp2base', h: NAVI}
   - '&Compose1ToBase'
-  - {t: ▽, type: trans}
+  - {type: trans}
   NPAD:
-  - {t: ▽, type: trans}
+  - {type: trans}
   - U
   - D
   - E
@@ -114,8 +114,8 @@ layers:
   - KP 8
   - KP 9
   - '0'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: trans}
+  - {type: trans}
   - KP DIVIDE
   - KP MULTIPLY
   - {t: KP EQUAL, h: SYMB, type: held}
@@ -126,35 +126,35 @@ layers:
   - {t: KP 5, h: SYMB}
   - KP 6
   - KP ENTER
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: trans}
+  - {type: trans}
   - X
   - A
   - B
   - C
   - ':'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   - KP PLUS
   - KP 1
   - KP 2
   - KP 3
   - KP DOT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: trans}
+  - {type: trans}
   - {t: '&esc2base', h: MOUS}
   - {t: '&space2base', h: Gui}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   - {t: '&ret2base', h: Gui}
   - {t: '&bksp2base', h: NAVI}
   - '&Compose1ToBase'
-  - {t: ▽, type: trans}
+  - {type: trans}
   FUNC:
-  - {t: ▽, type: trans}
+  - {type: trans}
   - F1
   - F2
   - F3
@@ -165,8 +165,8 @@ layers:
   - F8
   - F9
   - F10
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: trans}
+  - {type: trans}
   - {t: F11, h: Shift}
   - {t: F12, h: RIGHT ALT}
   - F13
@@ -177,35 +177,35 @@ layers:
   - F18
   - {t: F19, h: RIGHT ALT}
   - {t: F20, h: Shift}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: trans}
+  - {type: trans}
   - F21
   - F22
   - F23
   - {t: F24, h: Gui}
   - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   - ''
   - Gui
   - ''
   - ''
   - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: trans}
+  - {type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   NAVI:
-  - {t: ▽, type: trans}
+  - {type: trans}
   - ''
   - ''
   - ''
@@ -216,8 +216,8 @@ layers:
   - INS
   - END
   - ⌫
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: trans}
+  - {type: trans}
   - ESCAPE
   - INS
   - ⌦
@@ -228,35 +228,35 @@ layers:
   - $$mdi:arrow-up$$
   - $$mdi:arrow-right$$
   - ENTER
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: trans}
+  - {type: trans}
   - ''
   - ''
   - ''
   - ''
   - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   - ''
   - PAGE DOWN
   - PG UP
   - ''
   - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: trans}
+  - {type: trans}
   MOUS:
-  - {t: ▽, type: trans}
+  - {type: trans}
   - ''
   - ''
   - ''
@@ -267,8 +267,8 @@ layers:
   - ''
   - ''
   - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: trans}
+  - {type: trans}
   - '&mkp MB4'
   - '&mkp LCLK'
   - '&mkp MCLK'
@@ -279,35 +279,35 @@ layers:
   - '&mmv MOVE_UP'
   - '&mmv MOVE_RIGHT'
   - '&mkp LCLK'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: trans}
+  - {type: trans}
   - ''
   - ''
   - ''
   - ''
   - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   - '&msc SCRL_LEFT'
   - '&msc SCRL_DOWN'
   - '&msc SCRL_UP'
   - '&msc SCRL_RIGHT'
   - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   SYST:
-  - {t: ▽, type: trans}
+  - {type: trans}
   - BT CLR
   - ''
   - ''
@@ -318,8 +318,8 @@ layers:
   - BRIGHTNESS INC
   - ''
   - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: trans}
+  - {type: trans}
   - ''
   - ''
   - OUT USB
@@ -330,33 +330,33 @@ layers:
   - VOL UP
   - ''
   - ''
-  - {t: ▽, type: trans}
+  - {type: trans}
   - BT CLR ALL
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4', type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   - PLAY PAUSE
   - PREV
   - $$mdi:skip-next$$
   - ''
   - ''
   - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
 combos:
 - p: [41, 46]
   k: CAPSLOCK

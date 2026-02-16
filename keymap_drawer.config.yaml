@@ -5,7 +5,7 @@ draw_config:
   combo_h: 30.0
   key_rx: 6.0
   key_ry: 6.0
-  dark_mode: auto
+  dark_mode: true
   n_columns: 1
   separate_combo_diagrams: true
   combo_diagrams_scale: 2
@@ -63,7 +63,7 @@ parse_config:
   toggle_label: toggle
   tap_toggle_label: tap-toggle
   trans_legend:
-    t: ▽
+    t: ""
     type: trans
   layer_legend_map: {}
   mark_alternate_layer_activators: false
@@ -76,7 +76,7 @@ parse_config:
     right_alt: AGr
     left_gui: Tux
     right_gui: Tux
-    keycode_combiner: "{mods}+ {key}"
+    keycode_combiner: "{mods}+{key}"
     mod_combiner: "{mod_1}+{mod_2}"
     special_combinations:
       left_ctrl+left_alt+left_gui+left_shift: Hyper

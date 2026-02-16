@@ -39,7 +39,7 @@ layers:
   - {t: M, h: Gui}
   - ','
   - .
-  - /
+  - _
   - {t: ENTER, h: RSHFT}
   - {type: trans}
   - {t: FUNC, h: sticky}
